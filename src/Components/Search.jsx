@@ -10,7 +10,7 @@ const Search = (props) => {
   const API_KEY = "YTkxZTRhNzAtODdlNy00ZjMzLTg0MWItOTc0NmZmNjU4Yzk4";
   const options = {
     method: "GET",
-    url: `https://api.napster.com/v2.2/search/verbose?apikey=${API_KEY}&query=${value}`,
+    url: `http://api.napster.com/v2.2/search/verbose?apikey=${API_KEY}&query=${value}`,
     params: { s: "daft_punk" },
   };
   const getMusic = () => {
